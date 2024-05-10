@@ -1,0 +1,38 @@
+<div class="mx-auto mt-5">
+
+    <div class="col-md-6 my-5 mx-auto">
+
+        <div class="mt-5">
+            <h2 class="text-danger fs-4">Login</h2>
+        </div>
+        
+        <div class="mt-5 mb-2 w-50">
+            <form autocomplete="off" [formGroup]="myForm">
+
+                <div class="form-group">
+                    <label class="col-3 col-form-label">Email:</label>
+                    <input type="text" formControlName="email" class="form-control">
+                    <span class="form-text text-danger" *ngIf="campoEsValido('email')">
+                        Campo obligatorio
+                    </span>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-3 col-form-label">Password:</label>
+                    <input type="text" formControlName="pass" class="form-control">
+                    <span class="form-text text-danger" *ngIf="campoEsValido('pass')">
+                        Campo obligatorio
+                    </span>
+                </div>
+                <div class="form-group d-flex justify-content-end mt-4">
+                    <button class="btn btn-danger" [disabled]="myForm.invalid" (click)="login()">Acceder</button>
+                </div>
+            </form>
+
+            <div *ngIf="respuesta != ''">
+                <span class="text-danger mt-5 fs-5">{{ respuesta }}</span>
+            </div>
+
+        </div>
+    </div>
+</div>

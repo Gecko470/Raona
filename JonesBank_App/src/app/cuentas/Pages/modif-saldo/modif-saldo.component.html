@@ -1,0 +1,45 @@
+<div class="mx-auto mt-5">
+
+    <div class="col-md-6 my-5 mx-auto">
+        <div class="d-flex justify-content-between align-items-center w-75">
+            <div class="mt-5">
+                <h2 class="text-danger fs-4">Ingresos en Cuenta</h2>
+            </div>
+            <div>
+                <button class="btn btn-transparent">
+                    <a [routerLink]="['../listado']" class="btn btn-danger">Listado Cuentas</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-5 mb-2 w-50">
+            <form autocomplete="off" [formGroup]="myForm" >
+
+                <div class="form-group">
+                    <label class="col-3 col-form-label">Número de Cuenta:</label>
+                    <input type="text" formControlName="numCuenta" class="form-control">
+                    <span class="form-text text-danger" *ngIf="campoEsValido('numCuenta')">
+                        Campo obligatorio
+                    </span>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-3 col-form-label">Importe:</label>
+                    <input type="text" formControlName="importe" class="form-control">
+                    <span class="form-text text-danger" *ngIf="campoEsValido('importe')">
+                        Campo obligatorio
+                    </span>
+                </div>
+                <div class="form-group d-flex justify-content-end mt-4">
+                    <button class="btn btn-danger" [disabled]="myForm.invalid"
+                        (click)="setIngreso()">Confirmar</button>
+                </div>
+            </form>
+
+            <div *ngIf="respuesta != ''">
+                <span class="text-danger mt-5 fs-5">{{ respuesta }}</span>
+            </div>
+
+        </div>
+    </div>
+</div>

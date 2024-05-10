@@ -1,0 +1,45 @@
+<div class="mx-auto mt-5">
+
+    <div class="col-md-6 my-5 mx-auto">
+        <div *ngIf="respuesta != ''">
+            <span class="text-danger mt-5 fs-5 fw-bold">{{ respuesta }}</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="mt-5">
+                <h2 class="text-danger fs-4">Listado de Cuentas</h2>
+            </div>
+            <div>
+                <button class="btn btn-transparent">
+                    <a [routerLink]="['../modifSaldo']" class="btn btn-danger">Ingresos</a>
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-transparent">
+                    <a [routerLink]="['../login']" class="btn btn-danger">Login</a>
+                </button>
+            </div>
+        </div>
+        
+        <div>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Número de Cuenta</th>
+                        <th>Cliente</th>
+                        <th>Saldo</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr *ngFor="let item of listaCuentas">
+                    <td>{{ item.id }}</td>
+                    <td>{{ item.numeroCuenta }}</td>
+                    <td>{{ item.cliente }}</td>
+                    <td>{{ item.saldo }}$</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

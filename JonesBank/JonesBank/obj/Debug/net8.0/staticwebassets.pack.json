@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\juang\\Desktop\\Desarrollo\\NET\\repos\\Proyectos\\Raona\\JonesBank\\JonesBank\\wwwroot\\Informes\\Informe_27c7ae6c-bd3c-48a7-b379-3d47cc758871.txt",
+      "PackagePath": "staticwebassets\\Informes\\Informe_27c7ae6c-bd3c-48a7-b379-3d47cc758871.txt"
+    },
+    {
+      "Id": "C:\\Users\\juang\\Desktop\\Desarrollo\\NET\\repos\\Proyectos\\Raona\\JonesBank\\JonesBank\\wwwroot\\Informes\\Informe_5bb50d4a-7479-44e6-a0b7-fe49a074e569.txt",
+      "PackagePath": "staticwebassets\\Informes\\Informe_5bb50d4a-7479-44e6-a0b7-fe49a074e569.txt"
+    },
+    {
+      "Id": "C:\\Users\\juang\\Desktop\\Desarrollo\\NET\\repos\\Proyectos\\Raona\\JonesBank\\JonesBank\\wwwroot\\Informes\\Informe_5fd8dbcb-9005-4aec-b2cc-dacf1499b10b.txt",
+      "PackagePath": "staticwebassets\\Informes\\Informe_5fd8dbcb-9005-4aec-b2cc-dacf1499b10b.txt"
+    },
+    {
+      "Id": "C:\\Users\\juang\\Desktop\\Desarrollo\\NET\\repos\\Proyectos\\Raona\\JonesBank\\JonesBank\\wwwroot\\Informes\\Informe_78d4e5cd-1f45-477b-a4b0-4bd363605a5f.txt",
+      "PackagePath": "staticwebassets\\Informes\\Informe_78d4e5cd-1f45-477b-a4b0-4bd363605a5f.txt"
+    },
+    {
+      "Id": "C:\\Users\\juang\\Desktop\\Desarrollo\\NET\\repos\\Proyectos\\Raona\\JonesBank\\JonesBank\\wwwroot\\Informes\\Informe_7a90ea5a-5933-42d7-a312-66fdd3b37232.txt",
+      "PackagePath": "staticwebassets\\Informes\\Informe_7a90ea5a-5933-42d7-a312-66fdd3b37232.txt"
+    },
+    {
+      "Id": "C:\\Users\\juang\\Desktop\\Desarrollo\\NET\\repos\\Proyectos\\Raona\\JonesBank\\JonesBank\\wwwroot\\Informes\\Informe_a5cfeb4a-6a00-48e9-988f-7c5b9816543d.txt",
+      "PackagePath": "staticwebassets\\Informes\\Informe_a5cfeb4a-6a00-48e9-988f-7c5b9816543d.txt"
+    },
+    {
+      "Id": "C:\\Users\\juang\\Desktop\\Desarrollo\\NET\\repos\\Proyectos\\Raona\\JonesBank\\JonesBank\\wwwroot\\Informes\\Informe_b84ac127-6008-4a18-bedf-b2c7aba3cfa8.txt",
+      "PackagePath": "staticwebassets\\Informes\\Informe_b84ac127-6008-4a18-bedf-b2c7aba3cfa8.txt"
+    },
+    {
+      "Id": "C:\\Users\\juang\\Desktop\\Desarrollo\\NET\\repos\\Proyectos\\Raona\\JonesBank\\JonesBank\\wwwroot\\Informes\\Informe_c883407c-3acd-41f9-9db9-88ecbc61dd6d.txt",
+      "PackagePath": "staticwebassets\\Informes\\Informe_c883407c-3acd-41f9-9db9-88ecbc61dd6d.txt"
+    },
+    {
+      "Id": "C:\\Users\\juang\\Desktop\\Desarrollo\\NET\\repos\\Proyectos\\Raona\\JonesBank\\JonesBank\\wwwroot\\Informes\\Informe_f7634496-43f7-4809-87db-86b98319b1bf.txt",
+      "PackagePath": "staticwebassets\\Informes\\Informe_f7634496-43f7-4809-87db-86b98319b1bf.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.JonesBank.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.JonesBank.props",
+      "PackagePath": "build\\JonesBank.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.JonesBank.props",
+      "PackagePath": "buildMultiTargeting\\JonesBank.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.JonesBank.props",
+      "PackagePath": "buildTransitive\\JonesBank.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
